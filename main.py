@@ -1,10 +1,10 @@
 from replit import clear
 import art
-#HINT: You can call clear() to clear the output in the console.
 
 print(art.logo)
 
 def calculate_winner(bids_dict):
+  '''Iterates over dictionary to find the highest bid. Returns winner and their bid.'''
   winner = ''
   winning_bid = 0
   for key, value in bids_dict.items():
